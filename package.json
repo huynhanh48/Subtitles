@@ -1,15 +1,16 @@
 {
-  "name": "amon-subtitles",
-  "version": "1.0.2",
-  "main": "index.js",
-  "dependencies": {
-    "axios": "^1.9.0",
-    "fast-xml-parser": "^5.2.2",
-    "he": "^1.2.0",
-    "lodash": "^4.17.21",
-    "striptags": "^3.2.0",
-    "youtube-captions-scraper": "^2.0.3"
-  },
-  "type": "module",
-  "author": "Anh Vo"
+	"name": "amon-subtitles",
+	"version": "1.0.3",
+	"main": "index.js",
+	"dependencies": {
+		"axios": "^1.9.0",
+		"fast-xml-parser": "^5.2.2",
+		"he": "^1.2.0",
+		"lodash": "^4.17.21",
+		"puppeteer": "^24.8.2",
+		"striptags": "^3.2.0",
+		"youtube-captions-scraper": "^2.0.3"
+	},
+	"type": "module",
+	"author": "Anh Vo"
 }

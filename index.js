@@ -1,3 +1,2 @@
-import { getSubtitles } from './getSubtitles.js';
-
-export  default getSubtitles;
+import { getSubtitles, getContentPage } from './getSubtitles.min.js'
+export { getSubtitles, getContentPage }
