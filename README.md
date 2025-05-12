@@ -34,7 +34,7 @@ import { getSubtitles, getContentPage } from 'amon-subtitles'
 ```bash
 const data = await getSubtitles({
     videoID: 'wLuZ0WMyr9U',     // YouTube video ID
-    preferredLangs: ['vi'],      // Preferred subtitle language(s)
+    preferredLangs: ['en'],      // Preferred subtitle language(s)
 });
 
 ```
@@ -44,7 +44,7 @@ const data = await getSubtitles({
 ```bash
 
 {
-  lang: 'vi',  // Language of the subtitles
+  lang: 'en',  // Language of the subtitles
   lines: [
     {
       start: '0:01',
@@ -86,6 +86,6 @@ const fetchDataWebsite = await getContentPage(url="https://www.base64decode.org/
 
 ## Additional Information:
 
-# getSubtitles will return the subtitles in the specified languages. If the preferred language is unavailable, it will attempt to use the first available language. If no subtitles are found, it throws an error.
+`getSubtitles will return the subtitles in the specified languages. If the preferred language is unavailable, it will attempt to use the first available language. If no subtitles are found, it throws an error.`
 
-# getContentPage is a robust method for scraping and extracting content, especially useful for bypassing bot protection like CAPTCHAs or JavaScript rendering. It uses Puppeteer to simulate a real user browsing experience, allowing you to get data even from websites that block traditional scrapers
+`getContentPage is a robust method for scraping and extracting content, especially useful for bypassing bot protection like CAPTCHAs or JavaScript rendering. It uses Puppeteer to simulate a real user browsing experience, allowing you to get data even from websites that block traditional scrapers`
